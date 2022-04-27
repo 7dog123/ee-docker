@@ -7,6 +7,7 @@ ENV PATH=$PATH:$PS2DEV/bin:$PS2DEV/ee/bin:$PS2DEV/iop/bin:$PS2DEV/dvp/bin:$PS2SD
 
 RUN git clone https://github.com/ps2dev/ps2toolchain-ee && \
 cd ps2toolchain-ee && \
-./scripts/001-binutils.sh && \
-./scripts/002-gcc-stage1.sh
+./scripts/003-newlib.sh && \
+./scripts/004-newlib-nano.sh && \
+./scripts/005-gcc-stage2.sh
 
