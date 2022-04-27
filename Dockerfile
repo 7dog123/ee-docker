@@ -1,4 +1,4 @@
-FROM ghcr.io/7dog123/ps2dev-docker/run-on-arch-7dog123-ps2dev-docker-ci-armv7-bullseye:latest
+FROM ghcr.io/7dog123/7dog123/ee-docker:latest
 
 ENV PS2DEV=/usr/local/ps2dev
 ENV PS2SDK=$PS2DEV/ps2sdk
